@@ -132,6 +132,7 @@
     .sec-one h1 {
         font-size: 6.5em !important;
     }
+
     .sec-one h2 {
         font-size: 5.5em !important;
     }
@@ -153,4 +154,13 @@
     text-transform: uppercase;
     text-shadow: 0 8px 0 #201b19;
     -webkit-text-stroke: 2px #201B19;
+}
+
+.side-text {
+    color: #201B19;
+    font-size: 14px;
+    color: #201b19;
+    font-family: 'SpaceGrotesk';
+    font-weight: bold;
+    text-transform: uppercase;
 }
