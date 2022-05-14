@@ -10,6 +10,7 @@
 
 .yellow {
     background-color: #ffbf2d;
+    padding-bottom: 70px;
 }
 
 .nav-link {
@@ -155,7 +156,12 @@
     text-shadow: 0 8px 0 #201b19;
     -webkit-text-stroke: 2px #201B19;
 }
-
+.sec-col-2{
+    text-align: left;
+}
+.sec-col-3{
+    text-align: right;
+}
 .side-text {
     color: #201B19;
     font-size: 14px;
