@@ -136,6 +136,12 @@
     .sec-one h2 {
         font-size: 5.5em !important;
     }
+    .text-1{
+        font-size: 35px !important;
+    }
+    .text-2{
+        font-size: 35px !important;
+    }
 }
 
 .sec-one h1 {
@@ -176,4 +182,37 @@
 .img-1 {
     margin-top: -55%;
     width: 300px;
+}
+
+.sec-two {
+    text-align: center;
+}
+
+.sec-two marquee span {
+    font-family: 'GulfsDisplay';
+    color: #333333;
+    font-size: 20px;
+}
+
+.slide-img {
+    width: 95px;
+    padding: 10px;
+}
+
+.face {
+    width: 95px;
+    padding: 10px;
+}
+
+.text-1 {
+    font-family: 'GulfsDisplay';
+    color: #fff;
+    text-shadow: -2px 0 0 #000, 2px 0 0 #000, 0 -2px 0 #000, 0 6px 0 #000;
+    font-size: 50px;
+}
+
+.text-2 {
+    font-family: 'GulfsDisplay';
+    color: #000;
+    font-size: 50px;
 }
