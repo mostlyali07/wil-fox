@@ -142,6 +142,12 @@
     .text-2{
         font-size: 35px !important;
     }
+    .text-4{
+        font-size: 40px !important;
+    }
+    .text-5{
+        font-size: 40px !important;
+    }
 }
 
 .sec-one h1 {
@@ -215,4 +221,26 @@
     font-family: 'GulfsDisplay';
     color: #000;
     font-size: 50px;
+}
+.text-3{
+    color: #201b19;
+    font-family: 'SpaceGrotesk';
+    font-size: 15px;
+    padding: 50px;
+}
+.text-4 {
+    font-family: 'GulfsDisplay';
+    color: #fff;
+    text-shadow: -2px 0 0 #000, 2px 0 0 #000, 0 -2px 0 #000, 0 6px 0 #000;
+    font-size: 5.73em;
+}
+
+.text-5 {
+    font-family: 'GulfsDisplay';
+    color: #000;
+    font-size: 5.73em;
+}
+.footer{
+    text-align: center;
+    overflow: hidden;
 }
