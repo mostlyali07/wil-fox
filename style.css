@@ -244,3 +244,27 @@
     text-align: center;
     overflow: hidden;
 }
+.social{
+    border-radius: 12px;
+    background: rgb(0, 0, 0);
+    will-change: transform;
+    transform: translateY(2px);
+    transition: transform 600ms cubic-bezier(.3, .7, .4, 1);
+    border-radius: 12px;
+    background: linear-gradient(to left, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 8%, rgb(0, 0, 0) 92%, rgb(0, 0, 0) 100%);
+    padding: 30px !important;
+    border-radius: 150px;
+    border: #000 2px solid;
+    color: #000;
+    background: #fffdf1;
+    transition: transform 600ms cubic-bezier(.3, .7, .4, 1);
+}
+.social:active {
+    transform: translateY(-2px);
+    transition: transform 34ms;
+}
+
+.social:hover{
+    transform: translateY(4px);
+    transition: transform 250ms cubic-bezier(.3, .7, .4, 1.5);
+}
